@@ -1,0 +1,52 @@
+button{
+    border-radius: 5px;
+    border: 1px;
+    background-color: white;
+    
+}
+button:hover{
+    background-color: rgb(243, 169, 186);
+    color: #140101;
+    border: 2px solid;
+    border-radius: 6px;
+}
+ .gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  } 
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  } 
+
+  .heroes{
+    background: linear-gradient(300deg, #f7c8ee, #f4dce0, #efd8d5);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  .d-block{
+    border-radius: 50%;
+  }
+
+  .carousel{
+    background: linear-gradient(300deg, #f7c8ee, #f4dce0, #efd8d5);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+  }
+.pb-2{
+text-align: center;
+}
+.col-md-5{
+margin-right: 20px;
+}
+
